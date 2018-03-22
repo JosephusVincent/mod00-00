@@ -1,3 +1,61 @@
-body{
+*{
 	/*background-color: red; */
+	margin: 0px auto;
+	padding: 0px;
+	font-family: 'Titillium Web', sans-serif;
 }
+
+#main-section{
+	background-color: grey;
+}
+
+.about{
+	width: 60%;
+	/*margin: 0 auto;*/
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+
+h1{
+	color: #fff;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#dev-description{
+	background-color: orange;
+}
+
+.my-picture{
+	height: 150px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+	padding: 3px;
+}
+
+#portfolio-section{
+	background-color: red;
+}
+
+#skills-section{
+	background-color: blue;
+}
+
+#about-section{
+	background-color: green;
+}
+
+
+
+#main-section,
+#portfolio-section,
+#skills-section,
+#about-section{ 
+	height: 100vh;
+}
+
